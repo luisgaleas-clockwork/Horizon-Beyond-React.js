@@ -6,6 +6,7 @@ import Drake from '../Components/Products/Drake';
 import Logic from '../Components/Products/Logic';
 import CalvinHarris from '../Components/Products/Calvin-Harris';
 import products from "../products.json";
+import sortby from 'sort-by'
 
 class Product extends React.Component {
     constructor(props) {
@@ -27,11 +28,12 @@ class Product extends React.Component {
                 console.log('HEY, IM INSIDE THE CALLBACK AFTER SETSTATE', this.state.updateFilterValue)
             })
         }
-        this.updatePrice = (e) => {
-            console.log('VALUE CHANGED', e.target.value)
-            this.setState({ updateFilterValue: e.target.value }, () => {
-                console.log('HEY, IM INSIDE THE CALLBACK AFTER SETSTATE', this.state.updateFilterValue)
-            })
+        this.updatePrice = () => {
+            this.state.productCole.sort(sortby('-price'))
+            this.state.productDrake.sort(sortby('-price'))
+            this.state.productLogic.sort(sortby('-price'))
+            this.state.productCalvin.sort(sortby('-price'))
+            console.log("OKKKURR")
         }
     }
 

@@ -1,5 +1,6 @@
 import React from 'react';
 import ProductItem from '../Utility/Products-Sections'
+import sortby from 'sort-by'
 
 const Drake = (props) => {
   const {state, name} = props
@@ -47,7 +48,8 @@ const Drake = (props) => {
         </div>
       </div>
       <div>
-        {state.productDrake.map(drakeP => {
+
+        {state.productDrake.sort(sortby('price')).map(drakeP => {
           return (<ProductItem key={drakeP.id} products={drakeP} />
           )
         })}
