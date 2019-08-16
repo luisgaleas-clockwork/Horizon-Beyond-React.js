@@ -1,7 +1,7 @@
 import React from 'react'
 
 const ProductHeader = (props) => {
-    const {updateFilterValue} = props
+    const {updateFilterValue, updatePrice} = props
     return (
         <div>
             <div className="hero-container">
@@ -19,7 +19,7 @@ const ProductHeader = (props) => {
                     <option value="beyond">Horizon Beyond</option>
                 </select>
                 <p>Filter Price</p>
-                <select className="sort">
+                <select className="sort" onChange={updatePrice}>
                     <option value="None">None</option>
                     <option value="high">High to Low</option>
                     <option value="low">Low to High</option>

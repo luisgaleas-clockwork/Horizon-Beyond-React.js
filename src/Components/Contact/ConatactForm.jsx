@@ -1,25 +1,31 @@
 import React from 'react'
+import '../bootstrapValidation'
 
 const Form = () => {
     return (
         <main className="form-main">
             <section className="form-bg">
                 <h1>Contact Us</h1>'
-          <form className="needs-validation form-container" novalidate>
-                    <div className="input-wrapper">
-                        <div className="input-field">
-                            <label for="validationCustom01">Name</label>
-                            <input type="text" class="form-control" id="validationCustom01" placeholder="Name" required />
+                <form class="needs-validation form-container" novalidate>
+                    <div className="form-row">
+                        <div className=" md-form">
+                            <label for="validationCustom012">Name</label>
+                            <input type="text" className="form-control" id="validationCustom012" placeholder="Name"
+                                required />
+                            <div className="valid-feedback">
+                                Looks good!
+      </div>
                         </div>
-                        <div className="input-field">
-                            <label for="validationCustom03">Email</label>
-                            <input type="email" class="form-control" id="validationCustom03" placeholder="Email" required />
+                        <div className=" md-form">
+                            <label for="validationCustom022">Email</label>
+                            <input type="email" className="form-control" id="validationCustom022" placeholder="Email" required />
+                            <div className="valid-feedback">
+                                Looks good!
+      </div>
                         </div>
-                        <div>
-                            <textarea  required></textarea>
-                        </div>
-                        <button className="btn btn-primary purple" type="submit">Submit</button>
+                        <textarea></textarea>
                     </div>
+                    <button class="btn btn-primary  btn-rounded form-btn" type="submit">Submit form</button>
                 </form>
             </section>
         </main>

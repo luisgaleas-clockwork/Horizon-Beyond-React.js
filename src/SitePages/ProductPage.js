@@ -18,9 +18,16 @@ class Product extends React.Component {
             productCalvin: products.calvin,
             show: false,
             changeArtist: "",
-            updateFilterValue: "none"
+            updateFilterValue: "none",
+            updatePrice: "none"
         }
         this.updateFilterValue = (e) => {
+            console.log('VALUE CHANGED', e.target.value)
+            this.setState({ updateFilterValue: e.target.value }, () => {
+                console.log('HEY, IM INSIDE THE CALLBACK AFTER SETSTATE', this.state.updateFilterValue)
+            })
+        }
+        this.updatePrice = (e) => {
             console.log('VALUE CHANGED', e.target.value)
             this.setState({ updateFilterValue: e.target.value }, () => {
                 console.log('HEY, IM INSIDE THE CALLBACK AFTER SETSTATE', this.state.updateFilterValue)
@@ -31,8 +38,8 @@ class Product extends React.Component {
     render() {
         return (
             <div>
-                <ProductHeader updateFilterValue={this.updateFilterValue} />
-                <ProductBeyond state={this.state}name="beyond"/>
+                <ProductHeader updateFilterValue={this.updateFilterValue} updatePrice={this.updatePrice} />
+                <ProductBeyond state={this.state} name="beyond" />
                 <JCole state={this.state} name="cole" />
                 <Drake state={this.state} name="drake" />
                 <Logic state={this.state} name="logic" />
