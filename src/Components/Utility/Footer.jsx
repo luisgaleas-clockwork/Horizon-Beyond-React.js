@@ -20,6 +20,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
+      <p>&copy; Luis Galeas, 2019</p>
     </footer>
   )
 }

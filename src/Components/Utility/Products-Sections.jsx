@@ -9,7 +9,7 @@ const ProductItem = (props) => {
                 <div className="text-position">
                     <h4>{products.name}</h4>
                     <p>{products.price}</p>
-                    <p>{products.description}</p>
+                    <p className="product-description">{products.description}</p>
                 </div>
             </div >
         </div>
