@@ -1,0 +1,718 @@
+@import url("https://fonts.googleapis.com/css?family=Philosopher|Ubuntu&display=swap");
+.carousel-item {
+  height: 100vh;
+}
+
+.carousel-caption {
+  margin-bottom: 30vh;
+}
+.carousel-caption h1,
+.carousel-caption h2 {
+  text-shadow: 5px 5px 10px #000000;
+  font-size: 4em;
+}
+.carousel-caption p {
+  text-shadow: 2px 2px 1px #000000;
+  font-size: 2rem;
+  margin-top: 3vh;
+}
+
+.logo img {
+  width: 40px;
+  height: 40px;
+  opacity: 1;
+}
+
+.navbar-bg-orange {
+  background: linear-gradient(to right, rgba(255, 25, 25, 0.7), rgba(82, 82, 82, 0.5));
+}
+
+#navbarNav a {
+  color: white;
+  border: none;
+}
+
+h1 {
+  color: white;
+}
+
+#musictype {
+  height: 60vh;
+  overflow: visible;
+}
+
+#albumcover {
+  margin-top: 5vh;
+}
+#albumcover img {
+  height: 300px;
+  width: 300px;
+  transition: 1s;
+}
+
+#Ac1 img:hover,
+#Ac2 img:hover,
+#Ac3 img:hover {
+  height: 320px;
+  width: 320px;
+  margin-right: 10px;
+}
+
+/*BEYOND-------------------------------------- */
+#beyond {
+  color: white;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://images.unsplash.com/photo-1510511233900-1982d92bd835?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+#beyond a {
+  margin-top: 5vh;
+  border: none;
+}
+
+.btn-color {
+  background-color: rgb(194, 19, 19);
+  width: 30vw;
+}
+
+.btn-color:hover {
+  background-color: rgb(233, 23, 23);
+}
+
+.beyond-group {
+  margin-left: 5vw;
+}
+
+.beyond-logo {
+  margin-left: 8vw;
+}
+.beyond-logo img {
+  height: 55vh;
+  width: 90%;
+  border-radius: 50%;
+  background: radial-gradient(rgb(233, 23, 23) , rgba(245, 149, 66, 0.2));
+}
+
+/*SALE------------------------------------------------------ */
+.sale-group {
+  margin-left: 5vw;
+  width: 60%;
+}
+.sale-group p {
+  margin-top: 2vh;
+}
+.sale-group a {
+  margin-top: 15vh;
+  border: none;
+}
+
+.sale-logo {
+  margin-left: 5vw;
+}
+
+.fa-play {
+  font-size: 25em;
+}
+
+/* Album---------------------------*/
+#FeatureAlbums {
+  color: white;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://images.unsplash.com/photo-1502872364588-894d7d6ddfab?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.jumbo-home {
+  margin-bottom: 0px;
+  border-radius: 0px;
+  background-color:rgb(49, 49, 49);
+  color:white;
+}
+
+.artist img {
+  height: 55vh;
+  width: 38vw;
+  border-radius: 50%;
+  background: radial-gradient(rgb(233, 23, 23), rgba(245, 149, 66, 0.01));
+}
+
+.artist-name {
+  font-size: 2.5rem;
+}
+
+.albumgroup {
+  text-align: right;
+  margin-left: 5vw;
+  width: 50%;
+}
+.albumgroup a {
+  margin-top: 5vh;
+  border: none;
+}
+
+/*CONTACT-------------------------------------------------*/
+.contact-group {
+  margin-left: 5vw;
+  width: 50%;
+}
+.contact-group a {
+  border: none;
+  margin-top: 20vh;
+}
+
+.contact-logo {
+  margin-left: 5vw;
+}
+
+.fa-comments {
+  font-size: 25em;
+}
+
+.social {
+  font-size: 5em;
+  text-align: center;
+  transition: 100ms;
+}
+.social i {
+  height: 12vh;
+  width: 12vh;
+  color: rgb(194, 19, 19);
+  transition: 1s;
+}
+.social i:hover {
+  color: rgb(233, 23, 23);
+}
+
+.social:hover {
+  font-size: 5.4rem;
+}
+
+.icon-text {
+  font-size: 1.2rem;
+  color: white;
+}
+
+footer {
+  background-color: #29323c;
+  height:17vh;
+}
+
+@media only screen and (max-width: 1212px) {
+  .carousel-item {
+    height: 100vh;
+  }
+  .carousel-item img {
+    height: 100vh;
+  }
+
+  #Ac3 {
+    display: none;
+  }
+
+  #musictype {
+    height: 80vh;
+  }
+
+  #albumcover {
+    margin-left: 8vw;
+  }
+
+  .beyond-logo {
+    margin-top: 10vh;
+  }
+  .beyond-logo img {
+    height: 45vh;
+    width: 45vh;
+    border-radius: 50%;
+  }
+
+  .fa-play {
+    font-size: 20em;
+  }
+
+  .artist img {
+    margin-top: 10vh;
+    height: 55vh;
+    width: 38vw;
+    border-radius: 50%;
+  }
+
+  .fa-comments {
+    font-size: 20em;
+    margin-left: 5vw;
+  }
+}
+@media only screen and (max-width: 1020px) {
+  .carousel-item {
+    height: 100vh;
+  }
+  .carousel-item img {
+    height: 100vh;
+  }
+
+  #musictype {
+    height: 70vh;
+  }
+  #musictype img {
+    display: none;
+  }
+}
+@media only screen and (max-width: 1020px) and (max-width: 768px) {
+  .carousel-item {
+    height: 100vh;
+  }
+  .carousel-item img {
+    height: 100vh;
+  }
+
+  #albumcover {
+    margin-top: 10vh;
+    margin-left: 1vw;
+  }
+
+  #beyond {
+    text-align: center;
+    padding-right: 13vw;
+  }
+  #beyond li {
+    text-align: left;
+    margin-left: 22vw;
+    list-style: square;
+  }
+
+  .artist {
+    display: none;
+  }
+
+  .sale-group {
+    text-align: center;
+    margin-left: 17vw;
+  }
+  .sale-group a {
+    margin-top: 10vh;
+    border: none;
+  }
+
+  .beyond-logo {
+    display: none;
+  }
+
+  .albumgroup {
+    text-align: center;
+    width: 70vw;
+    margin-left: 10vw;
+  }
+
+  .sale-logo {
+    display: none;
+  }
+
+  .contact-group {
+    text-align: center;
+    width: 70vw;
+    margin-left: 10vw;
+  }
+  .contact-group a {
+    margin-top: 5vh;
+  }
+
+  .contact-logo {
+    display: none;
+  }
+}
+.logo img {
+  width: 40px;
+  height: 40px;
+  opacity: 1;
+}
+
+#navbarNav a {
+  color: white;
+  border: none;
+}
+
+.beyond-ad {
+  display: flex;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.unsplash.com/photo-1560564203-34c933a5645c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-attachment: fixed;
+  height: 70vh;
+}
+
+.beyond-ad-text {
+  margin-left: 3vw;
+  margin-top: 5vh;
+  color: white;
+  text-shadow: 1px 1px 5px black;
+}
+.beyond-ad-text h2 {
+  font-size: 3em;
+}
+.beyond-ad-text p {
+  font-size: 1.5rem;
+}
+
+.p-text {
+  margin-top: 8vh;
+}
+
+.beyond-icon-blue {
+  margin-left: 25vw;
+}
+.beyond-icon-blue img {
+  background: radial-gradient(rgb(233, 23, 23) , rgba(245, 149, 66, 0.2));
+  border-radius: 50%;
+  height: 80%;
+  margin-top: 6vh;
+}
+
+.hero-heading {
+  color: white;
+  padding-top: 33vh;
+  font-size: 5em;
+  text-shadow: 2px 2px 1px #000000;
+}
+
+.hero-paragraph {
+  color: white;
+  padding-top: 8vh;
+  font-size: 2em;
+  text-shadow: 2px 2px 1px #000000;
+}
+
+.hero-container {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("https://images.unsplash.com/photo-1535276811207-1bcae679870e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80");
+  height: 100vh;
+  text-align: center;
+}
+
+.featured-artist-content {
+  width: 65vw;
+}
+
+.featured-artist {
+  display: flex;
+  height: 90vh;
+  width: 100%;
+  background-color: rgb(206, 199, 199);
+}
+
+.artist-albums {
+  height: 50%;
+}
+
+.artist-albums-product {
+  margin-left: 3vw;
+}
+
+.albumcover-product {
+  margin-top: 5vh;
+}
+
+.image-cover {
+  height: 35vh;
+  width: 120px;
+}
+.image-cover img {
+  height: 200px;
+  width: 200px;
+  transition: 1s;
+}
+.image-cover img p {
+  margin: 0;
+}
+.image-cover img:hover {
+  height: 210px;
+  width: 210px;
+  margin-right: 10px;
+}
+
+.artist-title {
+  font-size: 2em;
+  margin-top: 3vh;
+}
+
+.text-group {
+  margin-top: 10vh;
+  padding-left: 5vh;
+  height: 40%;
+}
+.text-group p {
+  font-size: 1.2rem;
+}
+
+.img-group img {
+  height: 60vh;
+  margin-top: 10vh;
+  margin-left: 3vw;
+}
+
+.drake {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)), url("https://images.unsplash.com/photo-1488579456918-038d21fd9653?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+.drake-img img {
+  height: 45vh;
+  border-radius: 50%;
+  background: radial-gradient(rgb(233, 23, 23) , rgba(245, 149, 66, 0.2));
+}
+
+.align-right {
+  text-align: right;
+  margin-right: 4vw;
+}
+
+.logic-img img {
+  width: 33vw;
+  height: 50vh;
+  border-radius: 50%;
+  margin-right: 5vw;
+}
+
+.calvin-harris {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)), url("https://images.unsplash.com/photo-1513363136477-3efb163fd99d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2875&q=80");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+.calvin-harris-img img {
+  height: 60vh;
+  width: 30vw;
+  border-radius: 50%;
+  background: radial-gradient(rgb(233, 23, 23) , rgba(245, 149, 66, 0.2));
+}
+
+.descriptions-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.album-prices-wrapper img {
+  height: 100%;
+  width: 100%;
+}
+
+.album-description {
+  display: flex;
+}
+.album-description img {
+  height: 200px;
+  width: 200px;
+  border-radius: 5%;
+  box-shadow: 0 0 4px #000000;
+}
+
+.price-description {
+  width: 60%;
+  margin-left: 5vw;
+}
+.price-description p {
+  padding-top: 1vh;
+}
+
+.img-description {
+  margin-left: 5vw;
+}
+
+.right-align-price-text {
+  width: 70%;
+}
+
+.filter-styles {
+  background-color: whitesmoke;
+  border-bottom: 1px solid gray;
+  display: flex;
+}
+.filter-styles p {
+  margin-left: 5vw;
+  font-size: 1.2em;
+  padding-top: 10px;
+}
+
+.filters,
+.sort {
+  margin-left: 5vw;
+  width: 10vw;
+  border: none;
+}
+
+@media only screen and (max-width: 1283px) {
+  .text-group {
+    margin-top: 5vh;
+    overflow: auto;
+  }
+
+  .img-group {
+    margin: 0;
+  }
+  .img-group img {
+    height: 50vh;
+    margin-top: 10vh;
+  }
+}
+@media only screen and (max-width: 1065px) {
+  .image-cover-container {
+    display: none;
+  }
+
+  .img-group {
+    display: none;
+  }
+
+  .beyond-icon-blue {
+    display: none;
+  }
+
+  .descriptions-container {
+    justify-content: space-evenly;
+  }
+
+  .album-description img {
+    height: 150px;
+    width: 150px;
+  }
+
+  .Ac3 {
+    display: none;
+  }
+
+  .drake-img {
+    display: none;
+  }
+
+  .calvin-harris-img {
+    display: none;
+  }
+
+  .text-group {
+    margin-left: 5vw;
+    text-align: center;
+    height: 80vh;
+  }
+
+  .calvin-harris,
+.drake {
+    padding-left: 16vw;
+  }
+
+  .jcole-text-group,
+.logic-text-group {
+    margin-left: 19vw;
+    width: 60vw;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .beyond-ad {
+    height: 50vh;
+    text-align: center;
+  }
+
+  .beyond-ad-text {
+    margin-left: 7vw;
+  }
+
+  .text-group {
+    padding: 0;
+    width: 60vw;
+    margin-left: 20vw;
+    text-align: center;
+    height: 45vh;
+  }
+
+  .featured-artist {
+    height: 52vh;
+  }
+
+  .calvin-harris,
+.drake {
+    padding: 0;
+  }
+}
+
+.form-main {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1)), url("https://images.unsplash.com/photo-1513617426959-c2860cf26415?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  height: 100%;
+}
+.form-main h1 {
+  text-align: center;
+  font-size: 6em;
+}
+
+.form-bg {
+  padding-top: 15vh;
+  height: 120vh;
+}
+
+.form-container {
+  color: white;
+  background-color: rgb(233, 23, 23,.7);
+  border-radius: 2%;
+  width: 50vw;
+  margin-top: 5vh;
+  margin-left: 25vw;
+}
+
+.input-wrapper {
+  padding: 20px;
+}
+
+.input-field {
+  padding-top: 5vh;
+}
+.input-field input {
+  border: 3px solid;
+}
+textarea{
+  margin-top:5vh;
+  width:100%;
+  height:15vh;
+  resize: none;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+a {
+  font-family: "Philosopher", sans-serif;
+}
+
+h3,
+h2 {
+  font-size: 3rem;
+}
+
+p {
+  font-family: "Ubuntu", sans-serif;
+}
+
+.navbar-toggler-icon {
+  background-image: url("https://cdn0.iconfinder.com/data/icons/rounded-basics/24/rounded__menu-512.png");
+}
+.products-group{
+  padding:30px;
+  margin:auto;
+  width:80%;
+}
+.text-position{
+  width:70%;
+  margin-left:20px;
+}
+/*# sourceMappingURL=index.css.map */

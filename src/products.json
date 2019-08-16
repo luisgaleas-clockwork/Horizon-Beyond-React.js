@@ -1,0 +1,106 @@
+{
+    "cole": [
+        {
+            "id": 1,
+            "name": "2014 Forest Hill Dr",
+            "artist": "J.Cole",
+            "price": 11.89,
+            "description": "Cole’s Forest Hills Drive address was where he started his music career in Fayetteville, North Carolina. Cole gave Complex Magazine a tour of his house and some of the items in it like the beat maker he used to start his career.",
+            "image": "http://foothillertech.com/student/webdesign/2017/fan4/projects/teamFan/assets/images/2014forestHillsdrive.jpg"
+        },
+        { 
+            "id": 2,
+            "name": "Born Sinner",
+            "artist": "J.Cole",
+            "price": 9.12,
+            "description": "The title track of J Cole's second album summarizes the corruptive temptations and dualities that center the LP.  This music is a gift, but God help us make it 'cause this music biz is a cliff, warns Cole.",
+            "image": "https://i.ebayimg.com/images/g/EesAAOSwnHZYdDgy/s-l300.jpg"
+        },
+        {
+            "id": 3,
+            "name": "Cole World: The side line story ",
+            "artist": "J.Cole",
+            "price": 9.25,
+            "description": "The album was one of the most anticipated releases of 2011 due to the sharp rise in Cole' s popularity and mainstream fan base. Cole's lyrics perhaps most strikingly deal with issues such as abortion and the consequences of growing up in a fatherless household. However, these themes are incorporated alongside more introspective issues such as relationships, family problems, fame and attempting to be successful.",
+            "image": "https://upload.wikimedia.org/wikipedia/en/7/76/ColeWorld.jpeg"
+        }
+    ],
+    "drake": [
+        {
+            "id": 4,
+            "name": "Take Care",
+            "artist": "Drake",
+            "price": 15.42,
+            "description": "Take Care incorporates several elements that has come to define Drake's sound, including minimalist R&B influences, existential subject matter, and alternately sung and rapped vocals. It features a mixture of braggadocio and emotional lyrics, exploring themes of fame, romance, and wealth.",
+            "image": "https://images.genius.com/a50b0608affc94c4dae3d502a65ea390.1000x1000x1.jpg"
+        },
+        {
+            "id": 5,
+            "name": "If you are reading this it's too late",
+            "artist": "Drake",
+            "price": 12.24,
+            "description": "If You're Reading This It's Too Late received generally positive reviews and debuted at number one on the US Billboard 200, with first week sales of 495,000 copies and 40,000 for online streaming credits, making this Drake's fourth time at the top of the chart.",
+            "image": "https://i.scdn.co/image/d329671363eb7826b5871eef978841c7db97c757"
+        },
+        {
+            "id": 6,
+            "name": "Views",
+            "artist": "Drake",
+            "price": 11.99,
+            "description": "The album received lukewarm reviews from critics, many of whom found it to be an overlong retread of Drakes previous work. Despite this, it spent 13 non-consecutive weeks at number one on the US Billboard 200. It was certified quadruple platinum by the Recording Industry Association of America (RIAA).",
+            "image": "https://i.pinimg.com/originals/1b/51/06/1b5106393526a842e816d7304da38d70.jpg"
+        }
+    ],
+    "logic": [
+        {
+            "id": 7,
+            "name": "Under Pressure",
+            "artist": "Logic",
+            "price": "12.00",
+            "description": "Under Pressure is the debut studio album by American rapper Logic. It was released on October 21, 2014, by Def Jam Recordings and Visionary Music Group. Development and composition of the album began in 2013, with recording taking place during a two-week span at the beginning of 2014.",
+            "image": "https://steamuserimages-a.akamaihd.net/ugc/911288131852721604/3A561AEF770A49CFF7DE0C00B9177BF232903CFD/"
+        },
+        {
+            "id": 8,
+            "name": "Bobby Tarintino",
+            "artist": "Logic",
+            "price": 11.95,
+            "description": "Bobby tarantino isn't an actual person. It is logic's 4th album, and it is the combonation of logic in bobby, because his full name is Sir Robert Bryson Hall III, and as you know, Bobby is a nickname for Robert, and “Tarantino” is the last name of a close friend/ music producer of Logic, Quentin Tarantino.",
+            "image": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c9/Logic_-_Bobby_Tarantino_%28album_cover%29.jpg/220px-Logic_-_Bobby_Tarantino_%28album_cover%29.jpg"
+        },
+        {
+            "id": 9,
+            "name": "The Incredible True Story",
+            "artist": "Logic",
+            "price": 15.02,
+            "description": "The Incredible True Story is the second studio album by American rapper Logic. It was released on November 13, 2015, by Def Jam Recordings and Visionary Music Group. The album saw extensive production by Logic along with a variety of contributors, including 6ix, Stefan Ponce, Sir Dylan, Syk Sense, OZ and DJ Dahi.",
+            "image": "https://upload.wikimedia.org/wikipedia/en/thumb/e/ea/TheIncredibleTrueStory.jpg/220px-TheIncredibleTrueStory.jpg"
+        }
+    ],
+    "calvin": [
+        {
+            "id": 10,
+            "name": "Funk Wav Bounces Vol. 1",
+            "artist": "Calvin Harris",
+            "price": 5.99,
+            "description": "The album features guest vocals by Frank Ocean, Migos, Schoolboy Q, PartyNextDoor, DRAM, Young Thug, Pharrell Williams, Ariana Grande, Future, Khalid, Travis Scott, Snoop Dogg, John Legend, Nicki Minaj, Katy Perry, Big Sean, Kehlani, Lil Yachty, and Jessie Reyez, as well as prominent writing contributions from Starrah.",
+            "image": "https://format-com-cld-res.cloudinary.com/image/private/s--7IqjzyFl--/c_limit,g_center,h_400,w_65535/a_auto,fl_keep_iptc.progressive,q_95/v1/f136e97a35dd648aedf494452956ee77/CALVIN_HARRIS_FUNK_WAV_BOUNCES_VOL1_1500x1500.jpg"
+        },
+        {
+            "id": 11,
+            "name": "Motion",
+            "artist": "Calvin Harris",
+            "price": 7.60,
+            "description": "Motion is the fourth studio album by Scottish DJ and record producer Calvin Harris. It was released on 31 October 2014 by Fly Eye and Columbia Records. The album includes collaborations with Ellie Goulding, Gwen Stefani, John Newman, Tinashe, Big Sean, Alesso, R3hab, Ummet Ozcan, Firebeatz, Hurts, Haim and All About She.",
+            "image": "https://upload.wikimedia.org/wikipedia/en/thumb/f/fb/Calvin_Harris_-_Motion.png/220px-Calvin_Harris_-_Motion.png"
+        },
+        {
+            "id": 12,
+            "name": "18 Months",
+            "artist": "Calvin Harris",
+            "price": 7.27,
+            "description": "18 Months is the third studio album by Scottish DJ and musician Calvin Harris. It was released on 26 October 2012 by Deconstruction, Fly Eye and Columbia Records. It marked Harris's first album where he does not regularly provide vocals on each song, instead producing the music and having guest singers sing for him, as Harris stated in late 2010 he did not intend to sing on his songs anymore.",
+            "image": "https://upload.wikimedia.org/wikipedia/en/thumb/d/df/Calvin_Harris_-_18_Months.png/220px-Calvin_Harris_-_18_Months.png"
+        }
+    ]
+}
