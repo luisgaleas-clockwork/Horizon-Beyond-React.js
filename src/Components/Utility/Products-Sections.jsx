@@ -5,7 +5,7 @@ const ProductItem = (props) => {
     return (
         <div className="products-group">
             <div className="album-description" >
-                <img src={products.image} />
+                <img src={products.image} alt="Album covers"/>
                 <div className="text-position">
                     <h4>{products.name}</h4>
                     <p>{products.price}</p>

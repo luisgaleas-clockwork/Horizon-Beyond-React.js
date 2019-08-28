@@ -6,7 +6,6 @@ import Drake from '../Components/Products/Drake';
 import Logic from '../Components/Products/Logic';
 import CalvinHarris from '../Components/Products/Calvin-Harris';
 import products from "../products.json";
-import sortby from 'sort-by'
 
 class Product extends React.Component {
     constructor(props) {
@@ -28,27 +27,27 @@ class Product extends React.Component {
                 console.log('HEY, IM INSIDE THE CALLBACK AFTER SETSTATE', this.state.updateFilterValue)
             })
         }
-        this.updatePrice = () => {
-            this.state.productCole.sort(sortby('-price'))
-            this.state.productDrake.sort(sortby('-price'))
-            this.state.productLogic.sort(sortby('-price'))
-            this.state.productCalvin.sort(sortby('-price'))
-            console.log("OKKKURR")
+        this.updatePrice = (e) => {
+                console.log('VALUE CHANGED', e.target.value)
+                this.setState({ updatePrice: e.target.value }, () => {
+                    console.log('HEY, IM INSIDE THE CALLBACK AFTER SETSTATE', this.state.updatePrice)
+                })
         }
     }
 
-    render() {
-        return (
-            <div>
-                <ProductHeader updateFilterValue={this.updateFilterValue} updatePrice={this.updatePrice} />
-                <ProductBeyond state={this.state} name="beyond" />
-                <JCole state={this.state} name="cole" />
-                <Drake state={this.state} name="drake" />
-                <Logic state={this.state} name="logic" />
-                <CalvinHarris state={this.state} name="calvin" />
-            </div>
-        )
-    }
-}
 
-export default Product
+        render() {
+            return (
+                <div>
+                    <ProductHeader updateFilterValue={this.updateFilterValue} updatePrice={this.updatePrice} />
+                    <ProductBeyond state={this.state} name="beyond" />
+                    <JCole state={this.state} name="cole" price="low" />
+                    <Drake state={this.state} name="drake" price="low"/>
+                    <Logic state={this.state} name="logic" price="low"/>
+                    <CalvinHarris state={this.state} name="calvin" price="low"/>
+                </div>
+            )
+        }
+    }
+
+    export default Product

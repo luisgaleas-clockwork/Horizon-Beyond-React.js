@@ -3,13 +3,13 @@ import ProductItem from '../Utility/Products-Sections'
 import sortby from 'sort-by'
 
 const Drake = (props) => {
-  const {state, name} = props
+  const {state, name, price} = props
   if (state.updateFilterValue === "none" || name === state.updateFilterValue) {
   return (
     <div>
       <div className="featured-artist drake">
         <div className="img-group drake-img"><img src="http://www.pngmart.com/files/8/Drake-PNG-Transparent-Photo.png"
-          alt="Image of artist Drake" />
+          alt="Artist Drake" />
         </div>
         <div className="featured-artist-content">
           <div className="text-group align-right">
@@ -33,12 +33,12 @@ const Drake = (props) => {
                     alt="Drake album Take care" /></a>
                 </div>
                 <div className="col-md image-cover">
-                  <a href="#Too-late"><img className="shadow p-3 mb-5 bg-white "
+                  <a href="#Take-care"><img className="shadow p-3 mb-5 bg-white "
                     src="https://i.scdn.co/image/d329671363eb7826b5871eef978841c7db97c757"
                     alt="If your are reading this its too late" /></a>
                 </div>
                 <div className="col-md image-cover" id="Take-care">
-                  <a href="#Views"><img className="shadow p-3 mb-5 bg-white Ac3"
+                  <a href="#Take-care"><img className="shadow p-3 mb-5 bg-white Ac3"
                     src="https://i.pinimg.com/originals/1b/51/06/1b5106393526a842e816d7304da38d70.jpg"
                     alt="Views by drake" /></a>
                 </div>
@@ -48,11 +48,17 @@ const Drake = (props) => {
         </div>
       </div>
       <div>
-
-        {state.productDrake.sort(sortby('price')).map(drakeP => {
-          return (<ProductItem key={drakeP.id} products={drakeP} />
-          )
-        })}
+      {state.updatePrice === 'None' ||  price === state.updatePrice ?
+          state.productDrake.sort(sortby('price')).map(drakeP => {
+            return (<ProductItem key={drakeP.id} products={drakeP} />
+            )
+          })
+          :
+          state.productDrake.sort(sortby('-price')).map(drakeP => {
+            return (<ProductItem key={drakeP.id} products={drakeP} />
+            )
+          })
+        }
       </div>
     </div>
   )}

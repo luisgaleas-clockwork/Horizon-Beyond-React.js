@@ -90,7 +90,7 @@
             "id": 11,
             "name": "Motion",
             "artist": "Calvin Harris",
-            "price": 7.60,
+            "price":"7.60",
             "description": "Motion is the fourth studio album by Scottish DJ and record producer Calvin Harris. It was released on 31 October 2014 by Fly Eye and Columbia Records. The album includes collaborations with Ellie Goulding, Gwen Stefani, John Newman, Tinashe, Big Sean, Alesso, R3hab, Ummet Ozcan, Firebeatz, Hurts, Haim and All About She.",
             "image": "https://upload.wikimedia.org/wikipedia/en/thumb/f/fb/Calvin_Harris_-_Motion.png/220px-Calvin_Harris_-_Motion.png"
         },

@@ -5,7 +5,7 @@ const DrakeAd = () => {
         <section>
             <div className="jumbotron jumbo-home d-flex" id="FeatureAlbums">
                 <div className="artist">
-                    <img src="http://www.pngmart.com/files/8/Drake-PNG-Transparent-Photo.png" alt="Image of artist drake" />
+                    <img src="http://www.pngmart.com/files/8/Drake-PNG-Transparent-Photo.png" alt="Artist drake" />
                 </div>
                 <div className="albumgroup">
                     <h3 className="display-4-home ">Featured Artist</h3>

@@ -1,12 +1,15 @@
 import React from 'react'
 
 const ProductHeader = (props) => {
-    const {updateFilterValue, updatePrice} = props
+    const { updateFilterValue, updatePrice } = props
     return (
         <div>
+
             <div className="hero-container">
-                <h1 className="hero-heading">Products & Services</h1>
-                <p className="hero-paragraph">Try out our Beyond plan and also check out our album prices!</p>
+                <div className="hero-text-group">
+                    <h1 className="hero-heading">Products & Services</h1>
+                    <p className="hero-paragraph">Try out our Beyond plan and also check out our album prices!</p>
+                </div>
             </div>
             <div className="filter-styles">
                 <p> Filter Artist:</p>

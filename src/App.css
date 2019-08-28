@@ -380,12 +380,6 @@ footer p {
   margin-top: 6vh;
 }
 
-.hero-heading {
-  color: white;
-  padding-top: 33vh;
-  font-size: 5em;
-  text-shadow: 2px 2px 1px #000000;
-}
 
 .hero-paragraph {
   color: white;
@@ -400,7 +394,17 @@ footer p {
   height: 100vh;
   text-align: center;
 }
-
+.hero-container h1{
+  color: white;
+  font-size: 4em;
+  text-shadow: 2px 2px 1px #000000;
+}
+.hero-text-group{
+  position: absolute;
+  top:45%;
+  left:50%;
+  transform:translate(-50%,-50%); 
+}
 .featured-artist-content {
   width: 65vw;
 }

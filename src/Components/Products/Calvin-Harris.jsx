@@ -3,14 +3,14 @@ import ProductItem from '../Utility/Products-Sections'
 import sortby from 'sort-by'
 
 const CalvinHarris = (props) => {
-  const { state, name } = props
+  const { state, name, price } = props
   if (state.updateFilterValue === "none" || name === state.updateFilterValue) {
     return (
       <div>
         <div className="featured-artist calvin-harris">
           <div className="img-group calvin-harris-img"><img
             src="https://66.media.tumblr.com/66fb647c2b76873a91ae59f34ef18bf4/tumblr_oo9mhyCAk51vl7x77o1_1280.png"
-            alt="Image of artist calvin harris" />
+            alt="Artist calvin harris" />
           </div>
           <div className="featured-artist-content">
             <div className="text-group align-right">
@@ -36,12 +36,12 @@ const CalvinHarris = (props) => {
                       alt="CALVIN_HARRIS_FUNK_WAV_BOUNCES_VOL1" /></a>
                   </div>
                   <div className="col-md image-cover">
-                    <a href="#Motion"><img className="shadow p-3 mb-5 bg-white "
+                    <a href="#Funk-Wav"><img className="shadow p-3 mb-5 bg-white "
                       src="https://upload.wikimedia.org/wikipedia/en/thumb/f/fb/Calvin_Harris_-_Motion.png/220px-Calvin_Harris_-_Motion.png"
                       alt="Calvin Harris Motion album" /></a>
                   </div>
                   <div className="col-md image-cover" id="Funk-Wav">
-                    <a href="#18-Months"><img className="shadow p-3 mb-5 bg-white Ac3"
+                    <a href="#Funk-Wav"><img className="shadow p-3 mb-5 bg-white Ac3"
                       src="https://upload.wikimedia.org/wikipedia/en/thumb/d/df/Calvin_Harris_-_18_Months.png/220px-Calvin_Harris_-_18_Months.png"
                       alt="Calvin harris 18 months album" /></a>
                   </div>
@@ -51,10 +51,17 @@ const CalvinHarris = (props) => {
           </div>
         </div>
         <div>
-          {state.productCalvin.sort(sortby('price')).map(calvinP => {
+        {state.updatePrice === 'None' ||  price === state.updatePrice ?
+          state.productCalvin.sort(sortby('price')).map(calvinP => {
             return (<ProductItem key={calvinP.id} products={calvinP} />
             )
-          })}
+          })
+          :
+          state.productCalvin.sort(sortby('-price')).map(calvinP => {
+            return (<ProductItem key={calvinP.id} products={calvinP} />
+            )
+          })
+        }
         </div>
       </div>
     )
