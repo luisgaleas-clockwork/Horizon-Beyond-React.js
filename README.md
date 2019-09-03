@@ -5,8 +5,8 @@ This is a project made during R2H that represents a music/streaming service that
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Used dependecies:
-react-router-dom
-sort-by
+- [react-router-dom]
+- [sort-by]
 
 ## Original Project:
 https://github.com/luisgaleas-clockwork/Horizon-Beyond
